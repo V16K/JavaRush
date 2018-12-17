@@ -1,1 +1,5 @@
-﻿
+﻿*.iml
+*.png
+/.idea/*
+*.log
+*.properties
