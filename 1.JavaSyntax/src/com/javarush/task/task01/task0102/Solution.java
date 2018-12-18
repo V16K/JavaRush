@@ -7,6 +7,7 @@ package com.javarush.task.task01.task0102;
 public class Solution {
     public static void main(String[] args) {
         //напишите тут ваш код
+        //Сделай через цикл Витя
         System.out.println("Элли самая красивая");
         System.out.println("Элли самая красивая");
         System.out.println("Элли самая красивая");
