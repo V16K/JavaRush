@@ -1,6 +1,6 @@
 package com.javarush.task.task02.task0217;
 
-/* 
+/*
 Минимум четырех чисел
 */
 public class Solution {
