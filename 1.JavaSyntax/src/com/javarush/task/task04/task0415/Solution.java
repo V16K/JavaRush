@@ -14,7 +14,7 @@ public class Solution {
         int b = in.nextInt();
         int c = in.nextInt();
 
-        if ((a + b) > c || (a + c) > b || (c + b) > a)
+        if ((a + b) > c && (a + c) > b && (c + b) > a)
             System.out.println("Треугольник существует.");
         else
             System.out.println("Треугольник не существует.");
