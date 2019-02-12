@@ -11,16 +11,15 @@ public class Solution {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String name = reader.readLine();
         String name1 = reader.readLine();
 
-        int s1 = name1.length();
-        String name2 = reader.readLine();
-        int s2 = name2.length();
-
-
-        if (name1 == name2)
+        if (name.equals(name1))
             System.out.println("Имена идентичны");
-        else if (name1 != name2 && s1 == s2)
+        else if (!name.equals(name1) && name.length() == name1.length())
             System.out.println("Длины имен равны");
+        else ;
+
+
     }
 }
