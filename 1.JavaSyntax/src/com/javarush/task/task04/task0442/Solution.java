@@ -16,9 +16,13 @@ public class Solution {
 
         while (true) {
             int n = Integer.parseInt(reader.readLine());
-            i = i + n;
-            if (n == -1) break;
-            System.out.println(i);
+            if (n == -1) {
+                i = i + n;
+                break;
+            } else {
+                i = i + n;
+            }
         }
+        System.out.println(i);
     }
 }
